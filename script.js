@@ -48,3 +48,13 @@ app.post('/register', async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
+
+function handleRegistration(event) {
+  // Prevent the form from submitting normally
+  event.preventDefault();
+
+  // Perform your registration logic here, for example, check form validity, send data to a server, etc.
+
+  // Assuming registration is successful, redirect to the success page
+  window.location.href = 'success.html';
+}

@@ -1,18 +1,21 @@
 body {
-    background-image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLxYrpofYFVkDGYH7D0pQh_sNo0TzKKfBcg&usqp=CAU";
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Kxc2nc9OV4obfAfl2Qckm_5R7PqcSXt6oA&usqp=CAU'); 
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
-    width: 300px;
+    width: 500px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); 
 }
 
 form {
@@ -31,7 +34,7 @@ input {
 
 button {
     background-color: #0f0fdc;
-    color: white;
+    color: rgb(236, 236, 179);
     padding: 10px;
     border: none;
     border-radius: 4px;
